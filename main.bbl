@@ -1,0 +1,539 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{40}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Arcuri and Briand}{Arcuri and Briand}{2011}]%
+        {arcuri2011practical}
+\bibfield{author}{\bibinfo{person}{Andrea Arcuri} {and} \bibinfo{person}{Lionel
+  Briand}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{A practical guide for using statistical tests to
+  assess randomized algorithms in software engineering}. In
+  \bibinfo{booktitle}{{\em Software Engineering (ICSE), 2011 33rd International
+  Conference on}}. IEEE, \bibinfo{pages}{1--10}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Athanasiou, Nugroho, Visser, and
+  Zaidman}{Athanasiou et~al\mbox{.}}{2014}]%
+        {athanasiou2014test}
+\bibfield{author}{\bibinfo{person}{Dimitrios Athanasiou},
+  \bibinfo{person}{Ariadi Nugroho}, \bibinfo{person}{Joost Visser}, {and}
+  \bibinfo{person}{Andy Zaidman}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Test code quality and its relation to issue
+  handling performance}.
+\newblock \bibinfo{journal}{{\em IEEE Transactions on Software Engineering\/}}
+  \bibinfo{volume}{40}, \bibinfo{number}{11} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{1100--1125}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bach}{Bach}{1995}]%
+        {bach1995enough}
+\bibfield{author}{\bibinfo{person}{James Bach}.}
+  \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{Enough about process: what we need are heroes}.
+\newblock \bibinfo{journal}{{\em IEEE Software\/}} \bibinfo{volume}{12},
+  \bibinfo{number}{2} (\bibinfo{year}{1995}), \bibinfo{pages}{96--98}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bier, Lovett, and Seacord}{Bier
+  et~al\mbox{.}}{2011}]%
+        {bier2011online}
+\bibfield{author}{\bibinfo{person}{Norman Bier}, \bibinfo{person}{Marsha
+  Lovett}, {and} \bibinfo{person}{Robert Seacord}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{An online learning approach to information systems
+  security education}. In \bibinfo{booktitle}{{\em Proceedings of the 15th
+  Colloquium for Information Systems Security Education}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bird, Rigby, Barr, Hamilton, German, and
+  Devanbu}{Bird et~al\mbox{.}}{2009}]%
+        {bird2009promises}
+\bibfield{author}{\bibinfo{person}{Christian Bird}, \bibinfo{person}{Peter~C
+  Rigby}, \bibinfo{person}{Earl~T Barr}, \bibinfo{person}{David~J Hamilton},
+  \bibinfo{person}{Daniel~M German}, {and} \bibinfo{person}{Prem Devanbu}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{The promises and perils of mining git}. In
+  \bibinfo{booktitle}{{\em Mining Software Repositories, 2009. MSR'09. 6th IEEE
+  International Working Conference on}}. IEEE, \bibinfo{pages}{1--10}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bissyand{\'e}, Lo, Jiang, R{\'e}veillere,
+  Klein, and Le~Traon}{Bissyand{\'e} et~al\mbox{.}}{2013}]%
+        {bissyande2013got}
+\bibfield{author}{\bibinfo{person}{Tegawend{\'e}~F Bissyand{\'e}},
+  \bibinfo{person}{David Lo}, \bibinfo{person}{Lingxiao Jiang},
+  \bibinfo{person}{Laurent R{\'e}veillere}, \bibinfo{person}{Jacques Klein},
+  {and} \bibinfo{person}{Yves Le~Traon}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Got issues? who cares about it? a large scale
+  investigation of issue trackers from github}. In \bibinfo{booktitle}{{\em
+  Software Reliability Engineering (ISSRE), 2013 IEEE 24th International
+  Symposium on}}. IEEE, \bibinfo{pages}{188--197}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Boehm}{Boehm}{2006}]%
+        {boehm2006view}
+\bibfield{author}{\bibinfo{person}{Barry Boehm}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{A view of 20th and 21st century software
+  engineering}. In \bibinfo{booktitle}{{\em Proceedings of the 28th
+  international conference on Software engineering}}. ACM,
+  \bibinfo{pages}{12--29}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brooks~Jr}{Brooks~Jr}{1975}]%
+        {brooks1975mythical}
+\bibfield{author}{\bibinfo{person}{Frederick~P Brooks~Jr}.}
+  \bibinfo{year}{1975}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em The Mythical Man-Month: Essays on Software
+  Engineering, Anniversary Edition, 1/E}}.
+\newblock \bibinfo{publisher}{Pearson Education India}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cabot, Izquierdo, Cosentino, and
+  Rolandi}{Cabot et~al\mbox{.}}{2015}]%
+        {cabot2015exploring}
+\bibfield{author}{\bibinfo{person}{Jordi Cabot}, \bibinfo{person}{Javier
+  Luis~C{\'a}novas Izquierdo}, \bibinfo{person}{Valerio Cosentino}, {and}
+  \bibinfo{person}{Bel{\'e}n Rolandi}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Exploring the use of labels to categorize issues in
+  open-source software projects}. In \bibinfo{booktitle}{{\em Software
+  Analysis, Evolution and Reengineering (SANER), 2015 IEEE 22nd International
+  Conference on}}. IEEE, \bibinfo{pages}{550--554}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cosentino, Izquierdo, and Cabot}{Cosentino
+  et~al\mbox{.}}{2017}]%
+        {cosentino2017systematic}
+\bibfield{author}{\bibinfo{person}{Valerio Cosentino}, \bibinfo{person}{Javier
+  L~C{\'a}novas Izquierdo}, {and} \bibinfo{person}{Jordi Cabot}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A Systematic Mapping Study of Software Development
+  With GitHub}.
+\newblock \bibinfo{journal}{{\em IEEE Access\/}}  \bibinfo{volume}{5}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{7173--7192}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cullom and Cullom}{Cullom and Cullom}{2006}]%
+        {cullom2006software}
+\bibfield{author}{\bibinfo{person}{Charmayne Cullom} {and}
+  \bibinfo{person}{Richard Cullom}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Software Development: Cowboy or Samurai}.
+\newblock \bibinfo{journal}{{\em Communications of the IIMA\/}}
+  \bibinfo{volume}{6}, \bibinfo{number}{2} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{1}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dias, Steinmacher, Pinto, da~Costa, and
+  Gerosa}{Dias et~al\mbox{.}}{2016}]%
+        {dias2016does}
+\bibfield{author}{\bibinfo{person}{Luiz~Felipe Dias}, \bibinfo{person}{Igor
+  Steinmacher}, \bibinfo{person}{Gustavo Pinto},
+  \bibinfo{person}{Daniel~Alencar da Costa}, {and} \bibinfo{person}{Marco
+  Gerosa}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{How Does the Shift to GitHub Impact Project
+  Collaboration?}. In \bibinfo{booktitle}{{\em Software Maintenance and
+  Evolution (ICSME), 2016 IEEE International Conference on}}. IEEE,
+  \bibinfo{pages}{473--477}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Efron and Tibshirani}{Efron and
+  Tibshirani}{1994}]%
+        {efron94}
+\bibfield{author}{\bibinfo{person}{Bradley Efron} {and}
+  \bibinfo{person}{Robert~J Tibshirani}.} \bibinfo{year}{1994}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em An introduction to the bootstrap}}.
+\newblock \bibinfo{publisher}{Chapman and Hall}, \bibinfo{address}{London}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gautam, Vishwasrao, and Servant}{Gautam
+  et~al\mbox{.}}{2017}]%
+        {gautam2017empirical}
+\bibfield{author}{\bibinfo{person}{Aakash Gautam}, \bibinfo{person}{Saket
+  Vishwasrao}, {and} \bibinfo{person}{Francisco Servant}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{An empirical study of activity, popularity, size,
+  testing, and stability in continuous integration}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 14th International Conference on
+  Mining Software Repositories}}. IEEE Press, \bibinfo{pages}{495--498}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ghotra, McIntosh, and Hassan}{Ghotra
+  et~al\mbox{.}}{2015}]%
+        {ghotra2015revisiting}
+\bibfield{author}{\bibinfo{person}{Baljinder Ghotra}, \bibinfo{person}{Shane
+  McIntosh}, {and} \bibinfo{person}{Ahmed~E Hassan}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Revisiting the impact of classification techniques
+  on the performance of defect prediction models}. In \bibinfo{booktitle}{{\em
+  37th ICSE-Volume 1}}. IEEE Press, \bibinfo{pages}{789--800}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Github}{Github}{2017}]%
+        {gh:showcase}
+\bibfield{author}{\bibinfo{person}{Github}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{Github Showcases}}.
+\newblock \bibinfo{howpublished}{\url{https://github.com/showcases}}.
+  (\bibinfo{year}{2017}).
+\newblock
+\newblock
+\shownote{[Online; accessed 13-October-2017].}
+
+
+\bibitem[\protect\citeauthoryear{Goeminne and Mens}{Goeminne and Mens}{2011}]%
+        {goeminne2011evidence}
+\bibfield{author}{\bibinfo{person}{Mathieu Goeminne} {and} \bibinfo{person}{Tom
+  Mens}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Evidence for the pareto principle in open source
+  software activity}. In \bibinfo{booktitle}{{\em the Joint Porceedings of the
+  1st International workshop on Model Driven Software Maintenance and 5th
+  International Workshop on Software Quality and Maintainability}}.
+  \bibinfo{pages}{74--82}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gupta, Sureka, and Padmanabhuni}{Gupta
+  et~al\mbox{.}}{2014}]%
+        {gupta2014process}
+\bibfield{author}{\bibinfo{person}{Monika Gupta}, \bibinfo{person}{Ashish
+  Sureka}, {and} \bibinfo{person}{Srinivas Padmanabhuni}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Process mining multiple repositories for software
+  defect resolution from control and organizational perspective}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 11th Working Conference on Mining
+  Software Repositories}}. ACM, \bibinfo{pages}{122--131}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hislop, Lutz, Naveda, McCracken, Mead, and
+  Williams}{Hislop et~al\mbox{.}}{2002}]%
+        {hislop2002integrating}
+\bibfield{author}{\bibinfo{person}{Gregory~W Hislop},
+  \bibinfo{person}{Michael~J Lutz}, \bibinfo{person}{J~Fernando Naveda},
+  \bibinfo{person}{W~Michael McCracken}, \bibinfo{person}{Nancy~R Mead}, {and}
+  \bibinfo{person}{Laurie~A Williams}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Integrating agile practices into software
+  engineering courses}.
+\newblock \bibinfo{journal}{{\em Computer science education\/}}
+  \bibinfo{volume}{12}, \bibinfo{number}{3} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{169--185}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jarczyk, Gruszka, Jaroszewicz, Bukowski, and
+  Wierzbicki}{Jarczyk et~al\mbox{.}}{2014}]%
+        {jarczyk2014github}
+\bibfield{author}{\bibinfo{person}{Oskar Jarczyk},
+  \bibinfo{person}{B{\l}a{\.z}ej Gruszka}, \bibinfo{person}{Szymon
+  Jaroszewicz}, \bibinfo{person}{Leszek Bukowski}, {and} \bibinfo{person}{Adam
+  Wierzbicki}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Github projects. quality analysis of open-source
+  software}. In \bibinfo{booktitle}{{\em International Conference on Social
+  Informatics}}. Springer, \bibinfo{pages}{80--94}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kalliamvakou, Gousios, Blincoe, Singer,
+  German, and Damian}{Kalliamvakou et~al\mbox{.}}{2014}]%
+        {kalliamvakou2014promises}
+\bibfield{author}{\bibinfo{person}{Eirini Kalliamvakou},
+  \bibinfo{person}{Georgios Gousios}, \bibinfo{person}{Kelly Blincoe},
+  \bibinfo{person}{Leif Singer}, \bibinfo{person}{Daniel~M German}, {and}
+  \bibinfo{person}{Daniela Damian}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{The promises and perils of mining github}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 11th working conference on mining
+  software repositories}}. ACM, \bibinfo{pages}{92--101}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kocaguneli, Zimmermann, Bird, Nagappan, and
+  Menzies}{Kocaguneli et~al\mbox{.}}{2013}]%
+        {ekrem13}
+\bibfield{author}{\bibinfo{person}{E. Kocaguneli}, \bibinfo{person}{T.
+  Zimmermann}, \bibinfo{person}{C. Bird}, \bibinfo{person}{N. Nagappan}, {and}
+  \bibinfo{person}{T. Menzies}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Distributed development considered harmful?}. In
+  \bibinfo{booktitle}{{\em 2013 35th International Conference on Software
+  Engineering (ICSE)}}. \bibinfo{pages}{882--890}.
+\newblock
+\showISSN{0270-5257}
+\showDOI{%
+\url{https://doi.org/10.1109/ICSE.2013.6606637}}
+
+
+\bibitem[\protect\citeauthoryear{Krishnamurthy}{Krishnamurthy}{2002}]%
+        {krishnamurthy2002cave}
+\bibfield{author}{\bibinfo{person}{Sandeep Krishnamurthy}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Cave or community?: An empirical examination of 100
+  mature open source projects}.
+\newblock  (\bibinfo{year}{2002}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mart{\'\i}nez-Torres and
+  Diaz-Fernandez}{Mart{\'\i}nez-Torres and Diaz-Fernandez}{2014}]%
+        {martinez2014current}
+\bibfield{author}{\bibinfo{person}{M~Roc{\'\i}o Mart{\'\i}nez-Torres} {and}
+  \bibinfo{person}{Mar{\'\i}a del~Carmen Diaz-Fernandez}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Current issues and research trends on open-source
+  software communities}.
+\newblock \bibinfo{journal}{{\em Technology Analysis \& Strategic
+  Management\/}} \bibinfo{volume}{26}, \bibinfo{number}{1}
+  (\bibinfo{year}{2014}), \bibinfo{pages}{55--68}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mittas and Angelis}{Mittas and
+  Angelis}{2013}]%
+        {mittas2013ranking}
+\bibfield{author}{\bibinfo{person}{Nikolaos Mittas} {and}
+  \bibinfo{person}{Lefteris Angelis}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Ranking and clustering software cost estimation
+  models through a multiple comparisons algorithm}.
+\newblock \bibinfo{journal}{{\em IEEE Transactions on software engineering\/}}
+  \bibinfo{volume}{39}, \bibinfo{number}{4} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{537--551}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mockus, Fielding, and Herbsleb}{Mockus
+  et~al\mbox{.}}{2002}]%
+        {mockus2002two}
+\bibfield{author}{\bibinfo{person}{Audris Mockus}, \bibinfo{person}{Roy~T
+  Fielding}, {and} \bibinfo{person}{James~D Herbsleb}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Two case studies of open source software
+  development: Apache and Mozilla}.
+\newblock \bibinfo{journal}{{\em ACM Transactions on Software Engineering and
+  Methodology (TOSEM)\/}} \bibinfo{volume}{11}, \bibinfo{number}{3}
+  (\bibinfo{year}{2002}), \bibinfo{pages}{309--346}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Moniruzzaman and Hossain}{Moniruzzaman and
+  Hossain}{2013}]%
+        {moniruzzaman2013comparative}
+\bibfield{author}{\bibinfo{person}{ABM Moniruzzaman} {and}
+  \bibinfo{person}{Dr~Syed~Akhter Hossain}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Comparative study on agile software development
+  methodologies}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1307.3356\/}}
+  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Morcov}{Morcov}{2012}]%
+        {morcovcomplex}
+\bibfield{author}{\bibinfo{person}{Stefan Morcov}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Complex IT Projects in Education: The Challenge}.
+\newblock \bibinfo{journal}{{\em International Journal of Computer Science
+  Research and Application\/}}  \bibinfo{volume}{2} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{115--125}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Munaiah, Kroh, Cabrey, and Nagappan}{Munaiah
+  et~al\mbox{.}}{2017}]%
+        {MunaiahCuration2017}
+\bibfield{author}{\bibinfo{person}{Nuthan Munaiah}, \bibinfo{person}{Steven
+  Kroh}, \bibinfo{person}{Craig Cabrey}, {and} \bibinfo{person}{Meiyappan
+  Nagappan}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Curating GitHub for engineered software projects}.
+\newblock \bibinfo{journal}{{\em Empirical Software Engineering\/}}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{1--35}.
+\newblock
+\showISSN{1573-7616}
+\showDOI{%
+\url{https://doi.org/10.1007/s10664-017-9512-6}}
+
+
+\bibitem[\protect\citeauthoryear{Padhye, Mani, and Sinha}{Padhye
+  et~al\mbox{.}}{2014}]%
+        {padhye2014study}
+\bibfield{author}{\bibinfo{person}{Rohan Padhye}, \bibinfo{person}{Senthil
+  Mani}, {and} \bibinfo{person}{Vibha~Singhal Sinha}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A study of external community contribution to
+  open-source projects on GitHub}. In \bibinfo{booktitle}{{\em Proceedings of
+  the 11th Working Conference on Mining Software Repositories}}. ACM,
+  \bibinfo{pages}{332--335}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Peterson}{Peterson}{2013}]%
+        {peterson2013github}
+\bibfield{author}{\bibinfo{person}{Kevin Peterson}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em The github open source development
+  process}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{Technical
+  report, Technical report, Mayo Clinic}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pinto, Steinmacher, and Gerosa}{Pinto
+  et~al\mbox{.}}{2016}]%
+        {pinto2016more}
+\bibfield{author}{\bibinfo{person}{Gustavo Pinto}, \bibinfo{person}{Igor
+  Steinmacher}, {and} \bibinfo{person}{Marco~Aur{\'e}lio Gerosa}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{More common than you think: An in-depth study of
+  casual contributors}. In \bibinfo{booktitle}{{\em Software Analysis,
+  Evolution, and Reengineering (SANER), 2016 IEEE 23rd International Conference
+  on}}, Vol.~\bibinfo{volume}{1}. IEEE, \bibinfo{pages}{112--123}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rastogi, Nagappan, and Jalote}{Rastogi
+  et~al\mbox{.}}{2017}]%
+        {rastogi2017empirical}
+\bibfield{author}{\bibinfo{person}{Ayushi Rastogi}, \bibinfo{person}{Nachiappan
+  Nagappan}, {and} \bibinfo{person}{Pankaj Jalote}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock {\em \bibinfo{title}{Empirical analyses of software contributor
+  productivity}}.
+\newblock \bibinfo{thesistype}{Ph.D. Dissertation}.
+  \bibinfo{school}{IIIT-Delhi}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Reyes~L{\'o}pez}{Reyes~L{\'o}pez}{2017}]%
+        {reyes2017analyzing}
+\bibfield{author}{\bibinfo{person}{Arturo Reyes~L{\'o}pez}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Analyzing GitHub as a Collaborative Software
+  Development Platform: A Systematic Review}.
+\newblock  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Robles, Gonzalez-Barahona, and Herraiz}{Robles
+  et~al\mbox{.}}{2009}]%
+        {robles2009evolution}
+\bibfield{author}{\bibinfo{person}{Gregorio Robles}, \bibinfo{person}{Jesus~M
+  Gonzalez-Barahona}, {and} \bibinfo{person}{Israel Herraiz}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Evolution of the core team of developers in libre
+  software projects}. In \bibinfo{booktitle}{{\em Mining Software Repositories,
+  2009. MSR'09. 6th IEEE International Working Conference on}}. IEEE,
+  \bibinfo{pages}{167--170}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Torres, Toral, Perales, and Barrero}{Torres
+  et~al\mbox{.}}{2011}]%
+        {torres2011analysis}
+\bibfield{author}{\bibinfo{person}{MR~Martinez Torres}, \bibinfo{person}{SL
+  Toral}, \bibinfo{person}{M Perales}, {and} \bibinfo{person}{F Barrero}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Analysis of the core team role in open source
+  communities}. In \bibinfo{booktitle}{{\em Complex, Intelligent and Software
+  Intensive Systems (CISIS), 2011 International Conference on}}. IEEE,
+  \bibinfo{pages}{109--114}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tsay, Dabbish, and Herbsleb}{Tsay
+  et~al\mbox{.}}{2014}]%
+        {tsay2014influence}
+\bibfield{author}{\bibinfo{person}{Jason Tsay}, \bibinfo{person}{Laura
+  Dabbish}, {and} \bibinfo{person}{James Herbsleb}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Influence of social and technical factors for
+  evaluating contribution in GitHub}. In \bibinfo{booktitle}{{\em Proceedings
+  of the 36th international conference on Software engineering}}. ACM,
+  \bibinfo{pages}{356--366}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wood-Harper and Wood}{Wood-Harper and
+  Wood}{2005}]%
+        {wood2005multiview}
+\bibfield{author}{\bibinfo{person}{Trevor Wood-Harper} {and}
+  \bibinfo{person}{Bob Wood}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Multiview as social informatics in action: past,
+  present and future}.
+\newblock \bibinfo{journal}{{\em Information Technology \& People\/}}
+  \bibinfo{volume}{18}, \bibinfo{number}{1} (\bibinfo{year}{2005}),
+  \bibinfo{pages}{26--32}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yamashita, McIntosh, Kamei, Hassan, and
+  Ubayashi}{Yamashita et~al\mbox{.}}{2015}]%
+        {yamashita2015revisiting}
+\bibfield{author}{\bibinfo{person}{Kazuhiro Yamashita}, \bibinfo{person}{Shane
+  McIntosh}, \bibinfo{person}{Yasutaka Kamei}, \bibinfo{person}{Ahmed~E
+  Hassan}, {and} \bibinfo{person}{Naoyasu Ubayashi}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Revisiting the applicability of the pareto
+  principle to core development teams in open source software projects}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 14th International Workshop on
+  Principles of Software Evolution}}. ACM, \bibinfo{pages}{46--55}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ye and Kishida}{Ye and Kishida}{2003}]%
+        {ye2003toward}
+\bibfield{author}{\bibinfo{person}{Yunwen Ye} {and} \bibinfo{person}{Kouichi
+  Kishida}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Toward an understanding of the motivation Open
+  Source Software developers}. In \bibinfo{booktitle}{{\em Proceedings of the
+  25th international conference on software engineering}}. IEEE Computer
+  Society, \bibinfo{pages}{419--429}.
+\newblock
+
+
+\end{thebibliography}

@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+        var chartDiv = document.getElementById('chart_div');
+
+        // var data = new google.visualization.arrayToDataTable([
+        //   ['Count', 'Hero', { role: 'annotation'}, 'Non-Hero', { role: 'annotation' }],
+        //   ['Small', 15,'19%', 66,'81%'],
+        //   ['Medium', 133,'89%', 17,'11%'],
+        //   ['Large', 423,'98%', 7,'2%']
+        // ]);
+
+        // var data = new google.visualization.arrayToDataTable([
+        //   ['Count', 'Hero', { role: 'annotation'}, 'Non-Hero', { role: 'annotation' }],
+        //   ['Small', 60,'63%', 36,'37%'],
+        //   ['Medium', 52,'96%', 2,'4%'],
+        //   ['Large', 21,'100%', 0,'0%']
+        // ]);
+
+        var data = new google.visualization.arrayToDataTable([
+          ['Count', 'Public', { role: 'annotation'}, 'Enterprise', { role: 'annotation' }],
+          ['Hero', 510,'510', 133,'133'],
+          ['Non-Hero', 151,'151', 38,'38']
+        ]);
+
+         var classicOptions = {
+          width: 800,
+          title: 'Distribution of Hero and Non-Hero',
+          titleTextStyle: 
+            { 
+  fontSize: 30,
+  bold: true,
+  alginment: 'center' },
+          legend: { position: 'top', alignment: 'center',textStyle: {bold: true, fontSize: 20}},
+          colors: ['Black', 'Grey'],
+          bars: 'vertical',
+          hAxis:{
+            textStyle: { 
+              fontSize: 20,
+              bold: true
+            }
+          },
+          vAxis: {
+            title: 'Count',
+            titleTextStyle: 
+            { 
+  fontSize: 20,
+  bold: true,
+  italic: false,
+  alginment: 'center' },
+            gridlines: { count: 5},
+            textStyle: { 
+              fontSize: 20,
+              bold: true
+            }
+          },
+      annotations: {
+        alwaysOutside: true,
+        textStyle: {
+      fontSize: 24,
+      bold: true,
+      italic: false
+    }
+      }
+        };
+
+      function drawClassicChart() {
+          var classicChart = new google.visualization.ColumnChart(chartDiv);
+          classicChart.draw(data, classicOptions);
+        }
+
+        drawClassicChart();
+    };
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 800px; height: 500px;"></div>
+  </body>
+</html>
